@@ -1,0 +1,234 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f9fc;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+ nav {
+    background-color: #f4f4f4;; 
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+   
+}
+
+.left-links a,
+.right-links a {
+    text-align: right;
+    color: #333;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3 ease;
+
+}
+
+nav a {
+    text-decoration: none; 
+    color: #333;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    color: #007bff; 
+
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    position: relative;
+}
+
+nav a {
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+    color: navy;
+}
+
+nav a {
+    position: relative;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0%;
+    height: 2px;
+    background-color: navy;
+    transition: 0.3s;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+nav a {
+    display: inline-block;
+    margin: 8px 10px;
+    font-size: 16px;
+}
+
+
+section {
+    background: white;
+    width: 80%;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    scroll-margin-top: 120px;
+}
+
+section {
+    width: 90%;
+    max-width: 800px; /* büyük ekranlarda sınır */
+}
+
+section {
+    overflow-x: auto;
+}
+
+
+
+
+/* BAŞLIKLAR */
+h2, h3 {
+    color: #222;
+   
+    
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th {
+    background: navy;
+    color: white;
+    padding: 12px;
+    font-size: 17px;
+    text-align: center;
+}
+
+table td, table th {
+    border: 1px solid #dddddd;
+    padding: 12px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f1f6ff;
+}
+
+/* Tabloda hover */
+table tr:hover {
+    background-color: #e4eeff;
+    transition: 0.2s ease;
+}
+
+@media (max-width: 600px) {
+
+    nav {
+        padding: 10px;
+    }
+
+    nav a {
+        display: block;   /* mobilde alt alta */
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+    section {
+        width: 95%;
+        padding: 18px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p, li {
+        font-size: 16px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    table th, table td {
+        padding: 8px;
+    }
+}
+
+
+.footer {
+    background: #f5f7ff;
+    padding: 20px;
+    text-align: center;
+   
+    
+   
+   
+
+    /* İçeriği ortalamak için */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.footer p {
+    color: #333;
+    font-size: 17px;
+    margin: 0;  
+    
+}
+
+.footer a {
+    color: #0033cc;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+    align-items: center;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.kaynak {
+    font-weight: bold;
+    color: navy;
+    text-decoration: none;
+    transition: 0.3sn ease;
+    display: inline-block;
+
+}
+
+.kaynak:hover {
+    transform: scale(1.1);
+    color: royalblue;
+}

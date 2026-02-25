@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRONT-END GELİŞTİRMEDE KULLANILAN TEMEL TEKNOLOJİLER</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="left-links">
+            <a href="#frontend">FRONT-END <i class="fa-solid fa-laptop-code"></i></a>
+            
+
+        </div>
+
+        <div class="right-links">
+            <a href="#html">HTML</a><a href="#css">CSS</a><a href="#bootstrap">BOOTSTRAP</a><a href="#js">JAVASCRIPT</a>
+            <a href="#icon"><i class="fa-solid fa-bars-staggered"></i></a>
+        </div>
+
+
+    </nav>
+
+    <div>
+        <section id="html">
+            <h2>HTML NEDİR?</h2>
+            <p>HTML, web sayfalarının iskeletini oluşturan bir işaretleme dilidir (markup language); yani bir
+                programlama dili
+                değildir. Görevi, bir web sitesindeki metinleri, resimleri, başlıkları, linkleri, listeleri ve bölümleri
+                tarayıcıya tanıtmaktır. Tarayıcı da bu bilgileri okuyup ziyaretçiye bir web sayfası olarak gösterir.
+                HTML,
+                yapıyı belirler: hangi kısım başlık, hangi kısım paragraf, hangi görsel nereye ait, sayfa nasıl
+                bölümlere
+                ayrılmış — hepsini HTML düzenler. CSS ise bu yapının görünüşünü güzelleştirir, JavaScript ise sayfaya
+                hareket ve
+                etkileşim ekler. Bu yüzden HTML, bir web sitesinin temel taşı ve her şeyin üzerine kurulduğu ilk
+                adımdır.</p>
+
+
+            <br>
+
+            <p>Html özelliklerini sıralayacak olursak;</p>
+            <ul>
+                <li>HTML bir programlama dili değildir.</li>
+                <li>Web sitesinin iskeleti denilebilir.</li>
+                <li>Etiketler kullanarak içerik tanımlar.</li>
+                <li>Metin, görüntü, video ve ses eklemeyi sağlar.</li>
+                <li>Link oluşturmayı sağlar.</li>
+                <li>Semantik etiketler dediğimiz -header,footer,nav,section- gibi etiketlerle sayfanın anlamlı bölümlere
+                    ayrılmasını sağlar.</li>
+                <li>CSS ve JAVASCRIPT ile birlikte kullanılır, ileriye dönük uyumludur, her cihazda ve her işletim
+                    sisteminde
+                    çalışır.</li>
+            </ul>
+
+        </section>
+
+    </div>
+    <br>
+
+    <div>
+        <section id="css">
+            <h2>CSS NEDİR?</h2>
+            <p>CSS (Cascading Style Sheets), web sayfalarının görünümünü ve tasarımını belirleyen bir stil dilidir. HTML
+                sayfanın iskeletini oluştururken, CSS bu iskelete renk, düzen, yazı tipleri, boşluklar, konumlandırma,
+                animasyonlar ve genel tasarım görünümünü ekler. Yani CSS sayesinde bir web sayfasını sade bir metin
+                yığını olmaktan çıkarıp modern, estetik ve kullanıcı dostu bir arayüze dönüştürürsün. Arka plan
+                renkleri, buton tasarımları, kutu düzenleri, responsive (mobil uyumlu) yapılar gibi tüm görsel detaylar
+                CSS ile yapılır. CSS olmadan web siteleri yalnızca siyah-beyaz metinlerden oluşurdu; CSS, web
+                tasarımının kalbidir.</p> <br>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th colspan="3" style="text-align: center;">CSS KULLANIM TÜRLERİ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>EXTERNAL CSS</td>
+                        <td>Ayrı bir CSS dosyası bağlama</td>
+                        <td>Düzenli ve profesyonel</td>
+                    </tr>
+
+                    <tr>
+                        <td>INTERNAL CSS</td>
+                        <td> style etiketi ile </td>
+                        <td> küçük sayfalarda pratik </td>
+                    </tr>
+
+                    <tr>
+                        <td>INLINE CSS</td>
+                        <td>style="" içinde</td>
+                        <td>hızlı ama profesyonel değil</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br> <br>
+
+            <h3>EN SIK KULLANILAN CSS ÖZELLİKLERİ</h3>
+            <ol>
+                <li>RENK VE ARKA PLAN</li>
+                <ul>
+                    <li>color: yazı rengi</li>
+                    <li>back-ground color: arka plan rengi</li>
+                    <li>back-ground-image: arka plan resmi</li>
+
+                </ul> <br>
+                <li>YAZI TİPİ VE METİN</li>
+                <ul>
+                    <li>font-size: yazı boyutu</li>
+                    <li>font-family: yazı tipi</li>
+                    <li>font-weight: kalınlık</li>
+                    <li>text-align: metin hizalama</li>
+                </ul> <br>
+
+                <li>KUTULAMA (BOX MODEL) </li>
+                <ul>
+                    <li>width/height: genişlik/yükseklik</li>
+                    <li>padding: iç boşluk</li>
+                    <li>margin: dış boşluk</li>
+                    <li>border: kenarlık</li>
+                    <li>border-radius: köşe yuvarlatma</li>
+                </ul> <br>
+
+                <li>GÖRÜNÜRLÜK VE KONUMLANDIRMA</li>
+                <ul>
+                    <li>display: görüntülenme türü</li>
+                    <li>position: konumlandırma</li>
+                    <li>top/left/right/bottom: konum değerleri</li>
+                    <li>z-index: üst üste bindirmede derinlik</li>
+                </ul> <br>
+
+                <li>FLEXBOX</li>
+                <ul>
+                    <li>display;flex</li>
+                    <li>justify-content: yatay hizalama</li>
+                    <li>align-items: dikey hizalama</li>
+                    <li>gap: elemanlar arası boşluk</li>
+                </ul> <br>
+
+                <li>GRİD (GELİŞMİŞ DÜZEN SİSTEMİ)</li>
+                <ul>
+                    <li>display:grid;</li>
+                    <li>grid-template-columns: sütunlar</li>
+                    <li>gap: grid boşlukları</li>
+                </ul> <br>
+
+                <li>TRANSITION/ANIMATION</li>
+                <ul>
+                    <li>transition: yumuşak geçiş</li>
+                    <li>animation</li>
+                    <li>transform: döndürme, büyütme</li>
+                </ul> <br>
+
+                <li>DİĞER ÇOK KULLANILANLAR</li>
+                <ul>
+                    <li>cursor: mouse imleci</li>
+                    <li>opacity: saydamlık</li>
+                    <li>overflow: taşma kontrolü</li>
+                </ul>
+
+
+        </section>
+    </div> <br>
+
+    <div>
+        <section id="bootstrap">
+            <h2>BOOTSTRAP NEDİR?</h2>
+            <p>Bootstrap, web sitelerini hızlı ve modern bir şekilde tasarlamak için kullanılan, hazır CSS ve JavaScript
+                bileşenleri sunan bir frontend framework (ön yüz çerçevesi) dir.</p> <br>
+            <table border="2">
+                <thead>
+                    <th style="text-align: center;">BOOTSTRAP'IN EN ÖNEMLİ ÖZELLİKLERİ</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mobil uyumlu (responsive) yapıyı otomatik sağlar</td>
+                    </tr>
+                    <tr>
+                        <td>CSS yazmadan modern tasarımlar elde edersin</td>
+                    </tr>
+                    <tr>
+                        <td>Grid sistemi sayesinde sayfayı sütunlara kolay bölersin</td>
+                    </tr>
+                    <tr>
+                        <td>Bootstrap = Hazır tasarım + düzen sistemi + komponent kütüphanesi</td>
+                    </tr>
+                    <tr>
+                        <td>Büyük bir dokümantasyona sahiptir</td>
+                    </tr>
+                </tbody>
+            </table> <br> <br>
+
+            <h3>BOOTSTRAP NASIL KULLANILIR?</h3>
+            <p>Bootstrap’i HTML dosyana eklemek için CDN bağlantısını kullanabilirsin. Bunun için
+
+                <i> head </i> etiketinin içine Bootstrap CSS linkini, sayfanın en altına yani
+                <i>body </i>kapanış etiketinin hemen üstüne de Bootstrap JavaScript dosyasını ekleyebilirsin.
+            </p>
+        </section>
+    </div> <br>
+
+    <div>
+        <section id="js">
+            <h2>JAVASCRIPT NEDİR?</h2>
+            <p>JavaScript, web sitelerini dinamik ve etkileşimli hale getirmek için kullanılan bir programlama dilidir.
+                HTML ve CSS ile birlikte web’in 3 temel teknolojisinden biridir</p>
+
+            <ul> <b>JAVASCRIPT NE İŞE YARAR?</b>
+                <li>Butona tıklayınca bir şey olmasını sağlar.</li>
+                <li>Form doğrulama yapar (boş mu, doğru mu).</li>
+                <li>Açılır menü, slider, modal, bildirim gibi öğeleri çalıştırır.</li>
+                <li>Tarayıcıyla iletişim kurar.</li>
+                <li>JS kullanarak oyun, animasyon, saat, hesap makinesi vs. yapılabilir. </li> <br>
+            </ul>
+
+            <h3>JAVASCRIPT'IN ÖNEMİ</h3>
+            <p>Neredeyse tüm modern web sitelerinde JavaScript kullanılır. Front-end Developer olma sürecinde
+                öğrenilmesi zorunlu bir dildir. HTML kullanarak oluşturduğumuz buton gibi yapılar JavaScript olmazsa
+                amacını yerine getiremez. Bu butonlara işlev kazandıran Javascripttir.</p>
+        </section>
+
+        <div>
+            <section>
+                <h3>HTML CSS VE JAVASCRIPT'I BİR TABLO ÜZERİNDE KARŞILAŞTIRMAK GEREKİRSE;</h3>
+                <table border="2">
+                    <tr>
+                        <th>Özellik/Dil </th>
+                        <th>HTML</th>
+                        <th>CSS</th>
+                        <th>JAVASCRIPT</th>
+                    </tr>
+
+                    <tr>
+                        <th>Türü</th>
+                        <td>İşaretleme dili (Mark-up)</td>
+                        <td>Stil dili (Style Sheet)</td>
+                        <td>Programlama Dili(Scripting)</td>
+                    </tr>
+
+                    <tr>
+                        <th>Görevi</th>
+                        <td>Sayfanın iskeletini oluşturur.</td>
+                        <td>Sayfanın tasarım ve stilini oluşturur.</td>
+                        <td>Sayfaya hareket, mantık ve etkileşim ekler.</td>
+                    </tr>
+
+                    <tr>
+                        <th>Ne yapar?</th>
+                        <td>Başlıklar, paragraflar, listeler, görseller</td>
+                        <td>Renk, font, düzen, konum, animasyon</td>
+                        <td>Form doğrulama, dinamik içerik, buton tıklamaları</td>
+                    </tr>
+
+                    <tr>
+                        <th>Tarayıcı tarafından nasıl çalışır?</th>
+                        <td>Direkt okunur.</td>
+                        <td>HTML ile birlikte yüklenir.</td>
+                        <td>Tarayıcı tarafından çalıştırılır.</td>
+
+                    </tr>
+
+                    <tr>
+                        <th>Bağımlılık</th>
+                        <td>Temel yapı</td>
+                        <td>HTML olmadan kullanılamaz.</td>
+                        <td>HTML&CSS ile birlikte çalışır.</td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+    </div>
+
+    <section>
+        <footer class="footer">
+            <p>
+                Bu site geliştirilirken <a href="https://www.w3schools.com" class="kaynak" target="_blank">W3Schools</a> 'tan
+                yararlanılmıştır.
+            </p>
+        </footer>
+
+    </section>
+
+
+
+
+
+
+</body>
+
+</html>
